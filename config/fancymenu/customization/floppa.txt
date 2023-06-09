@@ -1,0 +1,214 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = Шлепа Ленд 2
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = 2023-05-28_10.34.35.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = bottom-right
+  x = -89
+  action = movebutton
+  y = -64
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 88
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = bottom-right
+  x = -89
+  action = movebutton
+  y = -21
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = bottom-centered
+  x = -40
+  action = movebutton
+  y = -45
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 84
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = bottom-centered
+  x = -48
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = bottom-right
+  x = -21
+  action = movebutton
+  y = -21
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = bottom-right
+  x = -89
+  action = movebutton
+  y = -43
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 88
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = bottom-right
+  x = -62
+  action = movebutton
+  y = -21
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 32
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 30
+  width = 421
+  action = deep_customization_element:title_screen_forge_top
+  actionid = b83d0465-f87e-42ba-87bf-5a6db908056e1684782005762
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 7e7a32e6-5013-42d8-ac3a-42f513495d951684782005778
+  y = 209
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 167
+  width = 312
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = c3f930bb-3a47-4c05-b3b9-602b34ddd3bc1684782005778
+  y = 231
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = c359e1d6-7ff4-4c2a-879a-31a5ac8b53a31684782005779
+  y = 162
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 4bc19ae2-01a3-4207-bc36-df63c5c535701684782005779
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 6c48f236-4127-456c-b40b-bdca8f9ebf361684782005779
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  hoverlabel = {"placeholder":"serverstatus","values":{"ip":"46.138.241.206"}} {"placeholder":"serverplayercount","values":{"ip":"46.138.241.206"}}
+  restartbackgroundanimations = true
+  buttonaction = joinserver;46.138.241.206%btnaction_splitter_fm%
+  x = -50
+  width = 106
+  action = addbutton
+  actionid = 28e88d52-e635-4a2e-bf8d-9b334c2a51901684783203319
+  y = 18
+  label = Зайти на сервер
+  height = 20
+}
+
+customization {
+  path = logo_text.png
+  orientation = mid-centered
+  x = -119
+  width = 234
+  action = addtexture
+  actionid = a4dfd5be-5b21-4e96-b3ed-6e07d93345921685256630664
+  y = -154
+  height = 152
+}
+

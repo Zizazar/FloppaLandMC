@@ -1,0 +1,88 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.PauseScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 41
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  width = 203
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -7
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  width = 204
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=504330%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;http://46.138.241.206:8123%btnaction_splitter_fm%
+  x = -102
+  width = 98
+  action = addbutton
+  actionid = 41f0ec3b-b3af-48b8-915a-46ef191ef1941685354575434
+  y = 17
+  label = Открыть карту
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;http://46.138.241.206:3876%btnaction_splitter_fm%
+  x = 4
+  width = 98
+  action = addbutton
+  actionid = 4c8920f4-05e9-4c81-bc74-6cf70614c1d91685354768926
+  y = 17
+  label = Открыть ЖД карту
+  height = 20
+}
+
