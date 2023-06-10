@@ -1,2 +1,0 @@
-image = paintutils.loadImage("pic_ftb")
-paintutils.drawImage(image, 1, 1)
